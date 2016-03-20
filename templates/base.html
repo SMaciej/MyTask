@@ -1,0 +1,131 @@
+{% extends "index.html" %}
+{% load staticfiles %}
+
+{% block tasks %}
+
+<div class="jumbotron">
+    <h1>Twoja lista zadań</h1>
+    <br><br>
+    <table class="table table-hover">
+        <tbody>
+
+            <!-- Wyświetla poszczególne zadania. -->
+            {% for task in user_tasks %}
+
+                 <!-- Dopasowuje kolor zadania do poziomu ich ważności. -->
+                {% if task.priority = 3 %}
+                    <tr class="danger">
+                {% elif task.priority = 2 %}
+                    <tr class="warning">
+                {% elif task.priority = 1 %}
+                    <tr class="info">
+                {% endif %}
+                {% if task.status = True %}
+                    <tr class="success">
+                {% endif %}
+
+                <td><p>{{ task.name }}</p></td>
+
+                <!-- Sprawdza, czy zadanie jest wykonane i przyjmuje odpowiednią formę graficzną -->
+                <td><p>
+                    {% if task.status = True %}
+                        <form action="" method="post">
+                            {% csrf_token %}
+                            <button type="submit" value="{{ task.id }}" name="check"><img src="{% static 'images/success.png' %}" height="30" width="30"></button>
+                        </form>
+                    {% elif task.status = False %}
+                        <form action="" method="post">
+                            {% csrf_token %}
+                            <button type="submit" value="{{ task.id }}" name="check"><img src="{% static 'images/blank.png' %}" height="30" width="30"></button>
+                        </form>
+                    {% endif %}
+                </p></td>
+                </tr>
+
+            {% endfor %}
+
+        </tbody>
+    </table>
+
+
+    <div class="row">
+
+        <!-- Przycisk usuwający zakończone zadania -->
+        <div class="col-md-4">
+            <form action="" method="get">
+                <button type="submit" class="btn btn-default" value="true" name="clear">Wyczyść</button> 
+            </form>
+        </div>
+
+        <div class="col-md-8">
+
+                <dl id="menu0">
+
+                    <dt><button type="submit" class="btn btn-success">Nowe zadanie</button></dt>
+
+                        <dd>
+
+                            <br>
+                            <form class="form-horizontal" method="post" action="">
+
+                            {% csrf_token %}
+
+                            <div class="form-group">
+                                <p>Nazwa:</p>
+                                <p>{{ task_form.name }}</p>
+                                <p>Priorytet:</p>
+                                <p>{{ task_form.priority }} </p>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="row">
+                                    <button type="submit" class="btn btn-primary" value="Task">Dodaj</button> 
+                                </div>
+                            </div>
+
+                            {% if form.errors %}
+                                <p class="bg-danger">Wystąpiły błędy przy dodawaniu zadania.</p>
+                            {% endif %}
+
+                        </dd>
+                </dl>
+
+                <script type="text/javascript">
+                    // <![CDATA[
+                    new Menu('menu0');
+                    // ]]>
+                </script>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+</div>
+
+{% endblock %}
+
+
+{% block login %}
+<div class="jumbotron">
+    <h1>Twoja lista zadań</h1>
+    <br>
+    <p>By móc korzystać z serwisu musisz zalogować się na swoje konto. Jeśli nie posiadasz jeszcze konta kliknij "zarejestruj" aby się zarejestrować.</p><br>
+    <a class="btn btn-primary" href="{% url 'django.contrib.auth.views.login' %}" role="button">Zaloguj się.</a>
+    <a class="btn btn-success" href="/accounts/register/" role="button">Zarejestruj.</a>
+</div>
+{% endblock %}
+
+{% block footer %}
+<div class="jumbotron">
+    <h4>MyTask - aplikacja do zarządzania listą zadań stworzona jako projekt na zajęcia Projektowanie internetowych systemów informacyjnych. Wydział Matematyki i Informatyki Uniwersytetu im. Adama Mickiewicza w Poznaniu.</h4>
+    <h4>Maciej Sobolewski</h4>
+</div>
+{% endblock %}
+

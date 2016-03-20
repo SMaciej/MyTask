@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block login %}
+<div class="jumbotron">
+    <p>Wylogowano z serwisu.</p>
+    <a class="btn btn-primary" href="{% url 'django.contrib.auth.views.login' %}" role="button">Zaloguj ponownie.</a>
+</div>
+
+{% endblock %}

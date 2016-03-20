@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block login %}
+
+<div class="jumbotron">
+
+    <h1>Twoja lista zadań</h1>
+    <br>
+    <p>Zaloguj się aby zacząć korzystać z serwisu! Jeśli nie masz jeszcze konta, możesz je założyć <a href="/accounts/register/">tutaj</a>.</p>
+    <br>
+
+    <form class="form-horizontal" method="post" action="{% url 'django.contrib.auth.views.login' %}">
+
+        {% csrf_token %}
+
+        <div class="form-group">
+            <p>Użytkownik:</p>
+            <p>{{ form.username }}</p>
+            <p>Hasło:</p>
+            <p>{{ form.password }} </p>
+        </div>
+
+        <br>
+
+        <div class="form-group">
+            <div class="row">
+                <button type="submit" class="btn btn-primary" value="login">Zaloguj się</button> 
+            </div>
+        </div>
+
+        {% if form.errors %}
+            <p class="bg-danger">Zła nazwa użytkownika lub hasło. Spróbuj ponownie.</p>
+        {% endif %}
+
+    </form>
+
+</div>
+
+{% endblock %}

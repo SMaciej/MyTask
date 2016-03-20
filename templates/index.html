@@ -1,0 +1,62 @@
+{% load staticfiles %}
+
+
+<!DOCTYPE html>
+<html lang="pl">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Powyższe trzy trzymaj zawsze na początku heada. -->
+
+        <meta name="description" content="MyTask to aplikacja do zarządzania listą zadań stworzona jako projekt na zajęcia Projektowanie internetowych systemów informacyjnych.">
+        <meta name="author" content="Maciej Sobolewski">
+
+        <title>MyTask</title>
+
+        <!-- Bootstrap CSS. -->
+        <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+        <link href="{% static 'css/ie10-viewport-bug-workaround.css' %}" rel="stylesheet">
+        <link href="{% static 'css/jumbotron-narrow.css' %}" rel="stylesheet">
+
+        <script type="text/javascript" src="{% static 'js/menu.js' %}"></script>
+
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="header clearfix">
+
+                <nav>
+                    <ul class="nav nav-pills pull-right">
+                        {% if user.is_authenticated %}
+                            <li role="presentation" class="active"><a href="#">{{ current_user.username }}</a></li>
+                            <li role="presentation"><a href="{% url 'django.contrib.auth.views.logout' %}">Wyloguj</a></li>
+                        {% else %}
+                            <li role="presentation"><a href="{% url 'django.contrib.auth.views.login' %}">Zaloguj</a></li>
+                        {% endif %}
+                    </ul>
+                </nav>
+
+                <h3 class="text-muted">MyTask</h3>
+
+            </div>
+
+            {% if user.is_authenticated %}
+                {% block tasks %}
+                {% endblock %}
+            {% else %}
+                {% block login %}
+                {% endblock %}
+            {% endif %}
+            {% block footer %}
+            {% endblock %}
+
+        </div> 
+
+    </body>
+
+</html>

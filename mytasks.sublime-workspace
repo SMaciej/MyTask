@@ -1,0 +1,548 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"forms	module"
+			],
+			[
+				"user",
+				"user_tasks"
+			],
+			[
+				"x",
+				"x	forflow"
+			],
+			[
+				"backgr",
+				"background-repeat"
+			],
+			[
+				"backgro",
+				"background-image"
+			],
+			[
+				"refe",
+				"referral"
+			],
+			[
+				"User",
+				"User"
+			],
+			[
+				"ref",
+				"ref_id	statement"
+			],
+			[
+				"HttpR",
+				"HttpResponseRedirect	class"
+			],
+			[
+				"s",
+				"setDisplay"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "tasks/views.py",
+			"settings":
+			{
+				"buffer_size": 1646,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/base.html",
+			"settings":
+			{
+				"buffer_size": 4287,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/index.html",
+			"settings":
+			{
+				"buffer_size": 2043,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 54.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"control",
+				"Package Control: Install Package"
+			],
+			[
+				"package control install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation') "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/maciej/Copy Decrypted/Development/Projects/MyTask_bak",
+		"/home/maciej/Copy Decrypted/Development/Projects/MyTask_bak/MyTask",
+		"/home/maciej/Copy Decrypted/Development/Projects/MyTask_bak/tasks",
+		"/home/maciej/Copy Decrypted/Development/Projects/MyTask_bak/templates"
+	],
+	"file_history":
+	[
+		"/home/maciej/Copy Decrypted/Development/Projects/MyTask/tasks/admin.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/MyTask/tasks/forms.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/MyTask/templates/registration/logout.html",
+		"/home/maciej/Copy Decrypted/Development/Projects/MyTask/templates/registration/logged_out.html",
+		"/home/maciej/Copy Decrypted/Development/Projects/MyTask/MyTask/urls.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/MyTask/MyTask/settings.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/MyTask/templates/index.html",
+		"/home/maciej/Copy Decrypted/Development/Projects/MyTask/templates/registration/login.html",
+		"/home/maciej/Copy Decrypted/Development/Projects/MyTask/tasks/models.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/MyTask/templates/base.html",
+		"/home/maciej/Copy Decrypted/Development/Projects/MyTask/tasks/views.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/MyTask/templates/registration/registration_form.html",
+		"/home/maciej/Copy Decrypted/Development/Projects/MyTask/static/static_dirs/js/menu.js",
+		"/home/maciej/Copy/Development/Projects/MyTask/templates/registration/login.html",
+		"/home/maciej/Copy/Development/Projects/MyTask/templates/registration/registration_form.html",
+		"/home/maciej/Copy/Development/Projects/MyTask/templates/base.html",
+		"/home/maciej/Copy/Development/Projects/MyTask/MyTask/settings.py",
+		"/home/maciej/Copy/Development/Projects/MyTask/templates/index.html",
+		"/home/maciej/Copy/Development/Projects/MyTask/templates/registration/logged_out.html",
+		"/home/maciej/Copy/Development/Projects/MyTask/templates/registration/logout.html",
+		"/home/maciej/Copy/Development/Projects/MyTask/MyTask/urls.py",
+		"/home/maciej/Copy/Development/Projects/MyTask/tasks/views.py",
+		"/home/maciej/Copy/Development/Projects/MyTask/static/static_dirs/css/bootstrap.min.css",
+		"/home/maciej/Downloads/bootstrap.min.css",
+		"/home/maciej/Copy/Development/Projects/MyTask/static/static_dirs/css/jumbotron-narrow.css",
+		"/home/maciej/Copy/Development/Projects/MyTask/static/static_dirs/css/ie10-viewport-bug-workaround.css",
+		"/home/maciej/Copy/Development/Projects/TAS/TAS/TAS/urls.py",
+		"/home/maciej/Copy/Development/Projects/TAS/TAS/books/__init__.py",
+		"/home/maciej/Copy/Development/Projects/TAS/TAS/PyRo/library.py",
+		"/home/maciej/Copy/Development/Projects/TAS/TAS/books/views.py",
+		"/home/maciej/Copy/Development/Projects/TAS/TAS/TAS/settings.py",
+		"/home/maciej/Copy/Development/Projects/TAS/TAS/.git/MERGE_MSG",
+		"/home/maciej/Copy Decrypted/Documents/Informatyka Studia/Semestr V/PIS/Zadania.txt",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/TAS/urls.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/templates/index.html",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/books/__init__.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/books/views.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/templates/test.html",
+		"/var/www/html/main.php",
+		"/home/maciej/Copy Decrypted/Documents/Informatyka Studia/Semestr V/PIS/pis/main.php",
+		"/home/maciej/Copy Decrypted/Documents/Informatyka Studia/Semestr V/Automaty i języki formalne/daut-2015-s384780/TaskB30/run",
+		"/home/maciej/Copy Decrypted/Documents/Informatyka Studia/Semestr V/Automaty i języki formalne/daut-2015-s384780/TaskB45/run",
+		"/home/maciej/Copy Decrypted/Documents/Informatyka Studia/Semestr V/Automaty i języki formalne/daut-2015-s384780/TaskB39/run",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/books/utils.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/templates/home.html.bak",
+		"/home/maciej/Copy Decrypted/Development/Django/lwc/appka/views.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/runpyro.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/books/apps.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/templates/base.html.bak",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/PyRo/database.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/books/forms.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/books/admin.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/PyRo/library.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/books/models.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/PyRo/main.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/PyRo/guest.py",
+		"/home/maciej/Copy Decrypted/Documents/Informatyka Studia/Semestr V/Automaty i języki formalne/daut-2015-s384780/TaskB39/run.py",
+		"/home/maciej/Copy Decrypted/Documents/Informatyka Studia/Semestr V/Automaty i języki formalne/daut-2015-s384780/TaskB11/run",
+		"/home/maciej/Copy Decrypted/Documents/Informatyka Studia/Semestr V/Automaty i języki formalne/daut-2015-s384780/TaskB39/rn",
+		"/home/maciej/Copy Decrypted/Documents/Informatyka Studia/Semestr V/Automaty i języki formalne/daut-2015-s384780/TaskB11/test.in",
+		"/home/maciej/Copy Decrypted/Documents/Informatyka Studia/Semestr V/Automaty i języki formalne/daut-2015-s384780/TaskB11/test.exp",
+		"/home/maciej/Copy Decrypted/Documents/Informatyka Studia/Semestr V/Automaty i języki formalne/daut-2015-s384780/TaskB00/run",
+		"/home/maciej/Copy Decrypted/Documents/Informatyka Studia/Semestr V/Automaty i języki formalne/daut-2015-s384780/TaskX01/run",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/PyRo/person.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/database_create.sql",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/PyRo/person.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/PyRo/visit.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/PyRo/database.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/PyRo/warehouse.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/templates/home.html",
+		"/home/maciej/Copy Decrypted/Development/Projects/3chess/3chess.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/static/static_root/img/kappa2.jpeg",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/templates/base.html",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/TAS/settings.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/books/tests.py",
+		"/home/maciej/Copy Decrypted/Development/Projects/TAS/TAS/TAS/views.py",
+		"/etc/pulse/daemon.conf",
+		"/etc/pulse/default.pa",
+		"/home/maciej/Copy/Development/Projects/TAS/TAS/.git/COMMIT_EDITMSG",
+		"/home/maciej/Development/Projects/3chess_online/.gitignore",
+		"/home/maciej/Copy/Development/Projects/3chess/3chess.py",
+		"/home/maciej/Copy/Development/Projects/3chess/3chess.",
+		"/etc/modprobe.d/alsa-base.conf",
+		"/proc/asound/modules",
+		"/home/maciej/.i3/config",
+		"/home/maciej/Downloads/Invader ZIM/Season 01/Invader ZIM - S01E03 - Walk of Doom.eng.srt",
+		"/home/maciej/Downloads/Invader ZIM/Season 01/Invader ZIM - S01E02 - Parent Teacher Night.eng.srt",
+		"/home/maciej/Downloads/ps.py",
+		"/home/maciej/Downloads/Rick.and.Morty.S02E03.720p.HDTV.x264-BATV[rarbg]/rick.and.morty.s02e03.720p.hdtv.x264-batv.nfo",
+		"/home/maciej/Copy/Documents/Informatyka Studia/Semestr IV/Algebra/kolokwia",
+		"/home/maciej/Development/Projects/3chess/3chess.py",
+		"/home/maciej/Development/Projects/3chess_new/changelog",
+		"/home/maciej/Development/Projects/KCK/08/generator/src/generator/Generator.java",
+		"/home/maciej/Development/Projects/KCK/07/kck/generator/src/generator/Generator.java",
+		"/home/maciej/Copy/Development/Projects/3chess/res_conf/1280x960.res",
+		"/home/maciej/Copy/Development/Projects/3chess/1024x720.conf",
+		"/home/maciej/Copy/Development/Projects/3chess/1280x960.conf",
+		"/home/maciej/Development/Projects/Moj Pyton/pyton.py",
+		"/home/maciej/Copy/Development/Django/lwc/templates/base.html",
+		"/home/maciej/Copy/Development/Django/lwc/templates/share.html",
+		"/home/maciej/Copy/Development/Django/lwc/lwc/views.py",
+		"/home/maciej/Copy/Development/Django/lwc/templates/donotuse.html",
+		"/home/maciej/Copy/Development/Django/lwc/lwc/urls.py",
+		"/home/maciej/Copy/Development/Django/lwc/templates/home.html",
+		"/home/maciej/Downloads/Snatch (2000)/Snatch.2000.BRRip.txt",
+		"/home/maciej/Downloads/Dostojewski Biesy",
+		"/home/maciej/Downloads/Dostojewski Biesy.txt",
+		"/home/maciej/Copy/Development/Django/lwc/appka/models.py",
+		"/home/maciej/Copy/Development/Django/lwc/appka/admin.py",
+		"/home/maciej/Copy/Development/Django/lwc/lwc/settings.py",
+		"/home/maciej/Copy/Development/Django/lwc/appka/views.py",
+		"/home/maciej/Copy/Development/Django/lwc/appka/forms.py",
+		"/home/maciej/Copy/Development/Django/lwc/lwc/middleware.py",
+		"/home/maciej/Development/Django/lwc/templates/base.html",
+		"/home/maciej/Development/Django/lwc/appka/views.py",
+		"/home/maciej/Development/Django/lwc/appka/admin.py",
+		"/home/maciej/Development/Django/lwc/(unreachable)/Development/Django/lwc/appka/tests.py",
+		"/home/maciej/Development/Django/lwc/templates/css/jumbotron.css",
+		"/home/maciej/Development/Django/lwc/templates/js/ie-emulation-modes-warning.js",
+		"/home/maciej/Development/Django/lwc/templates/navbar.html",
+		"/home/maciej/.i3status.conf",
+		"/home/maciej/Development/Django/lwc/lwc/urls.py",
+		"/home/maciej/Development/Django/lwc/lwc/views.py",
+		"/home/maciej/Development/Django/lwc/lwc/settings.py",
+		"/home/maciej/Development/Django/lwc/templates/home.html",
+		"/home/maciej/.mozilla/firefox/mwad0hks.default/chrome/userContent.css",
+		"/home/maciej/Copy/Development/Python/sentdex/keys.py",
+		"/home/maciej/Copy/Development/Django/lwc/manage.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/maciej/Development/Django/lwc/appka"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"check",
+			"templat",
+			"logout",
+			"jumbotron",
+			".jumbotron{padding-top:30px;padding-bottom:30px;margin-bottom:30px;color:inherit;background-color:#eee}.jumbotron .h1,.jumbotron h1{color:inherit}.jumbotron p{margin-bottom:15px;font-size:21px;font-weight:200}.jumbotron>hr{border-top-color:#d5d5d5}.container .jumbotron,.container-fluid .jumbotron{padding-right:15px;padding-left:15px;border-radius:6px}.jumbotron .container{max-width:100%}@media screen and (min-width:768px){.jumbotron{padding-top:48px;padding-bottom:48px}.container .jumbotron,.container-fluid .jumbotron{padding-right:60px;padding-left:60px}.jumbotron .h1,.jumbotron h1{font-size:63px}}",
+			"jumbotron",
+			".jumbotron",
+			"Ł",
+			" \"",
+			"insert",
+			"mydb",
+			"=\"\"/>",
+			"udev",
+			"module-udev",
+			"udev",
+			"kill",
+			"undo",
+			"board_res",
+			"findSquares",
+			"pionek",
+			"square_colour",
+			":\n",
+			"color",
+			"board_color",
+			"plaeyDisplay",
+			"setDisp",
+			"bg",
+			"¯",
+			"¿",
+			"Ÿ",
+			"œ",
+			"æ",
+			"¹",
+			"³",
+			"ê",
+			"</hr>",
+			"6",
+			"10",
+			"3",
+			"frind_id",
+			")\n",
+			"print",
+			"get_or_create",
+			"<h1>Welcome</h1>",
+			"\n    global fpsTime\n    global setDisplay\n\n    fpsTime = pygame.time.Clock()\n    setDisplay = pygame.display.set_mode((resWidth,resHeight))\n    pygame.display.set_caption('controlling')\n    runGame()"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"jumbotron_task",
+			"tas",
+			"Ż",
+			"ż",
+			"ź",
+			"ś",
+			"ć",
+			"ą",
+			"ł",
+			"ę"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "tasks/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1646,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								229,
+								229
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1163,
+								1163
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 594.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2043,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1347,
+								1347
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 127.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mytasks.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 175.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
