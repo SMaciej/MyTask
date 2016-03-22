@@ -5,3 +5,5 @@ class AddTaskForm(forms.ModelForm):
     class Meta:
         model = Task
         exclude = ('status','owner',)
+
+
